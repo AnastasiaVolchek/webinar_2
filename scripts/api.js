@@ -66,7 +66,7 @@ class Api {
 
 }
 
-const api = new Api(configApi);
+export const api = new Api(configApi);
 // console.log(api);
 
 

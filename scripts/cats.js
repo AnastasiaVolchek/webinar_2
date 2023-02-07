@@ -1,4 +1,4 @@
-const cats = [
+export const cats = [
     {
         "name": "Базиль",
         "image": "https://www.friendforpet.ru/api/sites/default/files/2022-01/064AEBCB-45EC-4CE7-AB13-C65F10F00B7B.jpeg",

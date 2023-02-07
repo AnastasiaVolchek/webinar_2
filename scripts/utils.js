@@ -1,11 +1,7 @@
-function createCat(data) {
-    const cardInstance = new Card(data, "#card-template");
-    const newCardElement = cardInstance.getElement();
-    cardsContainer.append(newCardElement); 
-}
+
 
 //функция, которая будт доставать value из html разметки формы, которую введ пользователь
-function serializeForm(elements){
+export function serializeForm(elements){
     const formData ={};
     elements.forEach((input) => {
      //console.log(input.type);
